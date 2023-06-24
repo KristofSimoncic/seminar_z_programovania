@@ -1,8 +1,12 @@
 #include <iostream>
+using namespace std;
 
-unsigned int nasobky_v_rozsahu(unsigned long a, b) {}
+unsigned int pocitaj_stvorce(unsigned long a, unsigned long b) {
+	return abs(int(sqrt(b)) - int(sqrt(a)));
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	cout << pocitaj_stvorce(20, 2);
 }
+
